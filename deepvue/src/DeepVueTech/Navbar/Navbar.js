@@ -7,7 +7,7 @@ const NavbarComponent = () => {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="https://deepvue.tech/">DeepVueTech</Navbar.Brand>
+          <Navbar.Brand href="https://deepvue.tech/">DeepVue.Tech</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/pie">Statement Summary Card</Nav.Link>
             <Nav.Link href="/bar">EOD Analysis</Nav.Link>

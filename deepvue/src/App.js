@@ -14,6 +14,7 @@ const App = () => {
       <BrowserRouter basename="/">
         <Routes>
           {/* <Route path='/' element={<NavbarComponent/>}/> */}
+          <Route path="/" element={<PieChart />} />
           <Route path="/saving" element={<Saving />} />
           <Route path="/summary" element={<Summary />} />
           <Route path="/highest" element={<Highest />} />
@@ -21,11 +22,6 @@ const App = () => {
           <Route path="/bar" element={<BarChart />} />
         </Routes>
       </BrowserRouter>
-      {/* <Saving/> */}
-      {/* <Summary/> */}
-      {/* <Highest/> */}
-      {/* <PieChart/> */}
-      {/* <BarChart/> */}
     </>
   );
 };
