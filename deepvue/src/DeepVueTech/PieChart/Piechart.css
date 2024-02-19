@@ -1,0 +1,100 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+
+.Piechart {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 100px;
+          padding-bottom: 40px;
+}
+.Module{
+          display: flex;
+          flex-direction: column;
+          /* flex-direction: row; */
+          width: 70%;
+          /* padding-top: 20%; */
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+.lower{
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+}
+
+.Pie {
+          width: 400px;  
+}
+
+.Details{
+          /* display: flex; */
+          padding-top: 50px;
+          justify-content: center;
+          /* padding-top: 50px; */
+          /* flex-direction: row; */
+          /* align-items: center; */
+}
+.Cards{
+          width: 200px;
+          height: 80px;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+          /* padding: auto; */
+          margin: 10px;
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+
+}
+.header{
+          width: 100%;
+          padding-bottom: 20px;
+          /* height: 50px; */
+}
+.analytics{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 10px;
+          padding-top: 10px;
+}
+.Small_Cards{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+}
+.capsules{
+          padding-left: 100px;
+          display: flex;
+}
+.capsule{
+          margin-right: 10px;
+          width: 120px;
+          border-radius: 500px;
+          color: #7B66FF;
+          /* background-color: #42cacd; */
+          border: 1px solid #42cacd;
+          display: flex;
+          color: #42cacd;
+          cursor: pointer;
+          align-items: center;
+          padding: 5px;
+
+          justify-content: center;
+}
+.capsule:hover{
+          background-color: #42cacd;
+          color: white;
+}
+.statement{
+          /* style={{paddingTop:'20px',paddingLeft:'10px'}} */
+          padding-top: 20px;
+          padding-left: 10px;
+          font-size: 20px;
+          /* font-weight: 500; */
+}
