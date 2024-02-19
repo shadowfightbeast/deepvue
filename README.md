@@ -2,7 +2,7 @@
 
 ### Introduction
 
-DeepVue is a project aimed at providing visualization and analysis tools for JSON data. It utilizes React as the frontend framework along with various libraries for routing, charting, and data manipulation. This documentation provides an overview of how to get started with the project, links to the Github repository and deployed website, details on the frameworks and libraries used, and information on the JSON data structure.
+DeepVue is a project aimed at providing visualization and analysis tools for Financial data. It utilizes React as the frontend framework along with various libraries for routing, charting, and data manipulation. This documentation provides an overview of how to get started with the project, links to the Github repository and deployed website, details on the frameworks and libraries used, and information on the JSON data structure.
 
 ### How to start Project
 
@@ -25,4 +25,4 @@ The DeepVue project utilizes the following frameworks and libraries:
 2. React Router Dom: A routing library for React applications.
 3. Moment.js: A library for parsing, validating, manipulating, and formatting dates and times.
 4. Bootstrap: A front-end framework for developing responsive and mobile-first websites.
-5. react-chartjs-2: A wrapper for Chart.js to create dynamic charts in React.0
+5. react-chartjs-2: A wrapper for Chart.js to create dynamic charts in React.
