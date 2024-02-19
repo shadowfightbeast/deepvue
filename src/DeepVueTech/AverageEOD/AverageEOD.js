@@ -1,5 +1,3 @@
-// ./components/BarChart.js
-
 import React, { useState, useEffect } from "react";
 import { Bar } from "react-chartjs-2";
 import "./AverageEOD.css";
@@ -16,7 +14,6 @@ const BarChart = () => {
       Balance[parseInt(moment(user.Date).format("DD")) - 1] += parseInt(
         user.Balance
       );
-      // console.log()
     });
     for (let i = 0; i < 12; i++) {
       Balance[i] = Balance[i] / 30;

@@ -1,4 +1,3 @@
-// ./components/PieChart.js
 import React, { useState, useEffect } from "react";
 import Chart from "chart.js/auto";
 import { Pie } from "react-chartjs-2";
@@ -43,7 +42,6 @@ const PieChart = () => {
     setWith(With);
   };
   const data = {
-    //   labels: labels,
     datasets: [
       {
         label: "Our Detailed Breakdown",
@@ -70,7 +68,6 @@ const PieChart = () => {
       DaysAgo = new Date(currentDate.getTime() - 90 * 24 * 60 * 60 * 1000);
     }
     const day = moment(DaysAgo).format("MM-DD-YYYY").toString();
-    // console.log(day)
     users?.map((user) => {
       if (
         new Date(day) <= new Date(user.Date) &&
